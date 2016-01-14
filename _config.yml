@@ -71,6 +71,15 @@ menu:
             relativeUrl: /1-a-simple-internet-appliance/resistors
           - text: "Learn: Understanding LEDs"
             relativeUrl: /1-a-simple-internet-appliance/leds
+          - text: "Tutorial: First Sketch - A blinking LED"
+            relativeUrl: /1-a-simple-internet-appliance/first-sketch
+          - text: "Guide: Writing Functions"
+            relativeUrl: /1-a-simple-internet-appliance/writing-functions
+          - text: "Guide: Making Functions available through the Particle Cloud"
+            relativeUrl: /1-a-simple-internet-appliance/making-functions-available
+          - text: "Tutorial: Connecting your LED to the Internet"
+            relativeUrl: /1-a-simple-internet-appliance/iot-led
+
       - text: "Tips and Troubleshooting"
         relativeUrl: /tips-and-troubleshooting/
       - text: "Resources"
@@ -79,3 +88,4 @@ menu:
         relativeUrl: /faq/
       - text: "DIoT 2016"
         absoluteUrl: http://daraghbyrne.github.io/diot2016
+

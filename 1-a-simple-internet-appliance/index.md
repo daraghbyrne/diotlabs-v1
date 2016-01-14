@@ -32,10 +32,10 @@ This mix of tutorials and guides will introduce you to writing your first sketch
 
 Follow this primer: 
 
-1. Tutorial: [Writing our first sketch:](https://docs.google.com/document/d/1SMAWp6y4CoABge-wRQZrYiOxTUJmhoJs2jCsjhhPXkM/edit?usp=sharing) Making an LED Blink
+1. Tutorial: [Writing our first sketch:]({{site.baseurl}}/1-a-simple-internet-appliance/first-sketch) Making an LED Blink
 
-1. Guide: [Writing Functions](https://docs.google.com/document/d/1BA4KZfmpzcsyAG9LSDuDEKZYIfiGk7x4W0Il7En8iSo/edit?usp=sharing) - A Quick Guide 
+1. Guide: [Writing Functions]({{site.baseurl}}/1-a-simple-internet-appliance/writing-functions) - A Quick Guide 
 
-1. Guide: [Making Functions available through the Particle Cloud](https://docs.google.com/document/d/1e0qh3i1e7TMNfC0alsmT_R7Dw8GQZq4wLUSbcvXNo1w/edit?usp=sharing)
+1. Guide: [Making Functions available through the Particle Cloud]({{site.baseurl}}/1-a-simple-internet-appliance/making-functions-available)
 
-1. Tutorial: [Connecting your LED to the Internet](https://docs.google.com/document/d/1SZ5Qly4yORtpVG0ZBhlzGPQa2XGh3VQHlTiU2Ks08xI/edit?usp=sharing) - our first Internet Appliance 
+1. Tutorial: [Connecting your LED to the Internet]({{site.baseurl}}/1-a-simple-internet-appliance/iot-led) - our first Internet Appliance 
