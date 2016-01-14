@@ -34,8 +34,8 @@ These tutorials assume you are using a [Particle Maker Kit](https://store.partic
 This material is designed to help students begin to build working prototypes of 'internet appliances'. These are discussed, for example, by McEwen and Cassimally: 
 
 <figure>
-	<a href="/public/images/internet-appliances.jpeg">
-		<img src="/public/images/internet-appliances.jpeg" alt="Source: Designing the Internet of Things by Adrian McEwen & Hakim Cassimally">
+	<a href="{{site.baseurl}}/public/images/internet-appliances.jpeg">
+		<img src="{{site.baseurl}}/public/images/internet-appliances.jpeg" alt="Source: Designing the Internet of Things by Adrian McEwen & Hakim Cassimally">
 	</a>
 <figcaption>
 	Source: Designing the Internet of Things by Adrian McEwen & Hakim Cassimally

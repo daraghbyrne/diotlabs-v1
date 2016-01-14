@@ -21,13 +21,13 @@ These tutorials assume you are using a [Particle Maker Kit](https://store.partic
 
 ## Working with Particle
 
-* [What is the Particle Platform and what does it do?](/getting-started/the-particle-platform)
+* [What is the Particle Platform and what does it do?]({{site.baseurl}}/getting-started/the-particle-platform)
 
-* [Understanding your Photon]()
+* [Understanding your Photon]({{site.baseurl}})
 
-* [Setting up your Spark Microcontroller]() incl. getting it on the CMU Network!
+* [Setting up your Spark Microcontroller]({{site.baseurl}}) incl. getting it on the CMU Network!
 
-* [Tips and Troubleshooting](/faq)- look here if you're stuck!
+* [Tips and Troubleshooting]({{site.baseurl}}/faq)- look here if you're stuck!
 
-* [The Particle Community](/getting-started/the-particle-community)
+* [The Particle Community]({{site.baseurl}}/getting-started/the-particle-community)
 
