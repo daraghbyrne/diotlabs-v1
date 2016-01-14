@@ -139,7 +139,7 @@ You’ve twiddled your thumbs and your network registration is applied and ready
 
 There's a couple of ways to get your device onto WiFi: 
 
-#### RECOMMENDED: Using the Serial Monitor
+#### a. RECOMMENDED: Using the Serial Monitor
 
 - Open Particle Dev, and select the 'Show Serial Monitor' option.
 
@@ -159,7 +159,7 @@ There's a couple of ways to get your device onto WiFi:
 
 {% include figure.html src="../images/ParticleDevMonitorWiFi.jpg" caption="Serial Monitor Setup process completed" class="" %}
 
-#### Using Particle Dev (Caution!)
+#### b. Using Particle Dev (Caution!)
 
 {% include note.html type="tip" title="Hold tight" text="This doesn't seem to work in the current version of Particle Dev, but will probably work again in a future release." %}
 
@@ -169,13 +169,13 @@ There's a couple of ways to get your device onto WiFi:
 
 - When selecting the SSID: For some reason, when you select the CMU SSID, it appears blank. Instead of pointing and clicking, you'll just type in the SSID manually. Make sure it's ALL CAPS too!
 
-#### Using the Particle Command Line
+#### c. Using the Particle Command Line
 
 If you've set up the [Particle CLI](https://docs.particle.io/guide/tools-and-features/cli/), simply type <code>particle setup wifi</code> and follow the prompts.
 
 {% include figure.html src="../images/CLIWifiSetup.jpg" caption="Process for adding WiFi credentials to your Particle device through the CLI " class="" %}
 
-#### Using the Particle Tinker App 
+#### d. Using the Particle Tinker App 
 
 Open your smartphone, fire up the App, 
 
