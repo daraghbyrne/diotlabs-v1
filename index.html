@@ -3,7 +3,8 @@ layout: page
 title: Introduction
 ---
 
-{% include index.md | markdownify %}
+{% capture about %}{% include index.md %}{% endcapture %}
+{{ about  | markdownify }}
 
 <div class="home">
 
