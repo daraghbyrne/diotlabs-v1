@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<body class="wy-body-for-nav">
+
+    <div class="wy-grid-for-nav">
+
+	    {% include header.html %}
+
+        <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+            <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+                <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+                <a href="{{ baseUrl }}/">{{ site.title }}</a>
+            </nav>
+
+
+            <div class="wy-nav-content">
+                <div class="rst-content">
+					
+					<div role="navigation" aria-label="breadcrumbs navigation">
+					  <ul class="wy-breadcrumbs">
+					    <li><a href="index.html">Guide</a> »</li>
+      
+					    <li>{{ site.title }}</li>
+					      <li class="wy-breadcrumbs-aside">
+        
+          
+					            <a href="{{site.github.repo}}/blob/gh-pages/{{ page.url }}" class="fa fa-github"> Edit on GitHub</a>
+          
+        
+					      </li>
+					  </ul>
+					  <hr>
+					</div>
+					
+                    <div role="main" class="document">
+                        {{ content|raw }}
+                    </div>
+
+				    {% include footer.html %}
+					
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script src="{{ baseUrl }}/js/theme.js"></script>
+
+    <script>
+        $(function() {
+            // Syntax highlighting
+            hljs.initHighlightingOnLoad();
+        });
+    </script>
+
+</body>
+</html>
+

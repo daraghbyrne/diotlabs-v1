@@ -1,0 +1,41 @@
+<nav data-toggle="wy-nav-shift" class="wy-nav-side">
+    <div class="wy-side-nav-search">
+        <a href="{{ baseUrl }}/" class="fa fa-home"> {{ site.title|default('The title') }}</a>
+    </div>
+
+    <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul>
+            {% for item in site.menu.items %}
+				
+                <li class="toctree-l1 {% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current {% endif %}">
+                    <a class="reference internal {% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current{% endif %}"
+                       href="{% if item.relativeUrl == nil %}{{ item.absoluteUrl}}{% else %}{{ item.relativeUrl | prepend: site.baseurl | prepend: site.url  }}{% endif %}">
+                        {{ item.text   }}
+                    </a>
+					
+					<ul class="{% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current {% endif %}">
+		            {% for item in item.items %}
+					
+		                <li class="toctree-l2 {% if page.url contains item.relativeUrl %} current {% endif %}">
+		                    <a class="reference internal {% if page.url contains item.relativeUrl %} current{% endif %}"
+		                       href="{% if item.relativeUrl == nil %}{{ item.absoluteUrl}}{% else %}{{ item.relativeUrl | prepend: site.baseurl | prepend: site.url  }}{% endif %}">
+		                        {{ item.text   }}
+		                    </a>
+					
+						</li>
+					
+					{% endfor %}
+					</ul>
+					
+						
+					
+					
+                </li>
+				
+				
+
+            {% endfor %}
+        </ul>
+    </div>
+    &nbsp;
+</nav>

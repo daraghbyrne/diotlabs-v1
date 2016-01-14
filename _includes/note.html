@@ -1,0 +1,14 @@
+<!--
+USE AS ::: include note.html type="warning" title="Warning" content="" 
+
+note
+attention,caution, danger, error hint important tip warning seealso 
+admonition-todo
+
+-->
+
+<div class="admonition {{include.type}}">
+	<p class="first admonition-title">{{include.title}}</p>
+	<p class="last">{{ include.text | markdownify }}</p>
+</div>
+
