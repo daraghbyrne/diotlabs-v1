@@ -43,7 +43,7 @@ There are much more comprehensive steps and guidance provided by Particle and if
 
 # Step 3: Sign Up for Particle Cloud
 
-Open your web browser, maybe while the application is downloading and visit [https://www.particle.io/signup](https://www.particle.io/signup)
+Open your web browser, maybe while the application is downloading and visit [https://build.particle.io/signup](https://build.particle.io/signup)
 
 Create an account on Particle and follow the instructions.
 
