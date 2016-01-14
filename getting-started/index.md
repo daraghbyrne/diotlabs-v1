@@ -23,11 +23,15 @@ These tutorials assume you are using a [Particle Maker Kit](https://store.partic
 
 * [What is the Particle Platform and what does it do?]({{site.baseurl}}/getting-started/the-particle-platform)
 
-* [Understanding your Photon]({{site.baseurl}})
+* [Understanding your Photon]({{site.baseurl}}/getting-started/understanding-your-photon)
 
-* [Setting up your Spark Microcontroller]({{site.baseurl}}) incl. getting it on the CMU Network!
+* [Setting up your Photon Microcontroller]({{site.baseurl}}/getting-started/setting-up-your-photon) incl. getting it on the CMU Network!
 
-* [Tips and Troubleshooting]({{site.baseurl}}/faq)- look here if you're stuck!
+* [Tips and Troubleshooting]({{site.baseurl}}/tips-and-troubleshooting/)- look here if you're stuck!
 
 * [The Particle Community]({{site.baseurl}}/getting-started/the-particle-community)
+
+
+{% include note.html type="hint" title="Find out more about programming a Photon" text="If you're new to programming or even a pro, taking a look at the language references for programming particles can be really helpful: explore the [Arduino Language Reference](http://arduino.cc/en/Reference/HomePage) and the [Particle Language Reference](http://docs.spark.io/firmware/)" %}
+
 

@@ -60,6 +60,17 @@ menu:
           - text: "The Particle Community"
             relativeUrl: /getting-started/the-particle-community
 
+      - text: "1. A Simple Internet Appliance"
+        relativeUrl: /1-a-simple-internet-appliance/
+        items:
+          - text: "Learn: Understanding Breadboards"
+            relativeUrl: /1-a-simple-internet-appliance/breadboards
+          - text: "Learn: Understanding Jumper Wires"
+            relativeUrl: /1-a-simple-internet-appliance/jumpers
+          - text: "Learn: Understanding Resistors"
+            relativeUrl: /1-a-simple-internet-appliance/resistors
+          - text: "Learn: Understanding LEDs"
+            relativeUrl: /1-a-simple-internet-appliance/leds
       - text: "Tips and Troubleshooting"
         relativeUrl: /tips-and-troubleshooting/
       - text: "Resources"

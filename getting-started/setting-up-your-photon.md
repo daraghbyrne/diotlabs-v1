@@ -163,7 +163,7 @@ void loop() {
 }
 ```
 
-{% include figure.html src="../images/setup/image01.png" caption="" class="Code entered into the Particle Dev IDE" %}
+{% include figure.html src="../images/setup/image01.png" caption="Code entered into the Particle Dev IDE" class="" %}
 
 <br/>
 
