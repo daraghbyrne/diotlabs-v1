@@ -21,7 +21,7 @@ email: 			daragh@daraghbyrne.me
 
 description:     "A series of guides, tutorials and labs to accompany CMU's <a href='http://daraghbyrne.github.io/diot2016/'>DIoT Spring 2016 course</a>; a hands-on introductory course exploring the Internet of Things and connected product experiences."
 -- url:              http://diotlabs.daraghbyrne.me
---baseurl:          /diotlabs
+baseurl:          /diotlabs
 
 author:
   name:           'Daragh Byrne'
