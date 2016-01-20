@@ -10,7 +10,7 @@ In this mix of tutorials and guides, we'll explore Pulse Width Modulation as a w
 
 ### Components you will need
 
-* Spark Microcontroller 
+* Particle Microcontroller 
 
 * [Breadboard]({{site.baseurl}}/breadboards)
 

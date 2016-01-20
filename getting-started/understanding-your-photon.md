@@ -2,7 +2,7 @@
 layout: page
 title: "Understanding your Particle Photon"
 ---
-Shamelessly copied from [http://docs.spark.io](http://docs.spark.io) 
+Shamelessly copied from [http://docs.particle.io](http://docs.particle.io) 
 
 {% include figure.html src="../images/Photon-Matchbox.jpg" caption="The Particle Photon (credit: [Analysir] (http://www.analysir.com/blog/2015/06/16/porting-analysir-firmware-to-particles-photon-platform/))" %}
 
@@ -76,9 +76,9 @@ The RGB LED can also let you know if there were errors in establishing an intern
 
 1. **Two red flashes**: Connection failure due to bad internet connection. Check your network connection.
 
-2. **Three red flashes**: The Cloud is inaccessible, but the internet connection is fine. Check our [Twitter feed](http://www.twitter.com/sparkdevices) to see if there have been any reported outages; if not, visit our [support page](https://www.spark.io/support) for help.
+2. **Three red flashes**: The Cloud is inaccessible, but the internet connection is fine. Check our [Twitter feed](http://www.twitter.com/sparkdevices) to see if there have been any reported outages; if not, visit our [support page](https://www.particle.io/support) for help.
 
-3. **Four red flashes**: The Cloud was reached but the secure handshake failed. Visit our [support page](https://www.spark.io/support) for help.
+3. **Four red flashes**: The Cloud was reached but the secure handshake failed. Visit our [support page](https://www.particle.io/support) for help.
 
 4. **Flashing yellow/red**: Bad credentials for the Particle Cloud. Contact the Particle team ([hello@particle.io](mailto:hello@particle.io)).
 

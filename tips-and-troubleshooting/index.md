@@ -5,29 +5,29 @@ title: "Tips and Troubleshooting"
 
 We’ll add more as we go.  If you can think of any new additions, please suggest them!
 
-# Problems connecting to Spark
+# Problems connecting to Particle
 
-The most common problem will be: *Does your Spark have access to the internet.*
+The most common problem will be: *Does your Particle have access to the internet.*
 
-**Solution: Check your Spark has the right WiFi credentials.**
+**Solution: Check your Particle board has the right WiFi credentials.**
 
-If you move location for example from campus to home, you need to update the WiFi settings that your Spark is using to connect to the internet.
+If you move location for example from campus to home, you need to update the WiFi settings that your Particle board is using to connect to the internet.
 
-1. Connect the Spark to your computer via the USB cable
+1. Connect the Particle board to your computer via the USB cable
 
-2. Open up the ‘Spark Dev’ application
+2. Open up the ‘Particle Dev’ application
 
-3. Choose the ‘Spark’ Menu and then ‘Setup your Device’s WiFi’
+3. Choose the ‘Particle’ Menu and then ‘Setup your Device’s WiFi’
 
-4. Follow the instructions and the spark should connect 
+4. Follow the instructions and the Particle device should connect 
 
 ------------------------------
 
-For more complex problems… These two guides from the Spark Team are excellent resources. 
+For more complex problems… These two guides from the Particle Team are excellent resources. 
 
-* [http://docs.spark.io/troubleshooting/](http://docs.spark.io/troubleshooting/) (especially towards the end)
+* [http://docs.particle.io/troubleshooting/](http://docs.particle.io/troubleshooting/) (especially towards the end)
 
-* [https://community.spark.io/t/spark-core-troubleshooting-guide-spark-team/696](https://community.spark.io/t/spark-core-troubleshooting-guide-spark-team/696)
+* [https://community.particle.io/t/spark-core-troubleshooting-guide-spark-team/696](https://community.particle.io/t/spark-core-troubleshooting-guide-spark-team/696)
 
 # Common Stumbling Blocks
 
@@ -35,7 +35,7 @@ For more complex problems… These two guides from the Spark Team are excellent 
 
 **_Problem: My LED won’t light up_**
 
-**Solution: **LED’s have a direction. You’ll see that it has a long leg and a short leg. The long leg is the positive leg and the short is the negative side. Negative should go to ground or GND on your Spark Core. 
+**Solution: **LED’s have a direction. You’ll see that it has a long leg and a short leg. The long leg is the positive leg and the short is the negative side. Negative should go to ground or GND on your Particle board. 
 
 Remove your LED and check that it is placed correctly. 
 

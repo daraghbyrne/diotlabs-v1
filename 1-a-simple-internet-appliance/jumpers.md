@@ -19,7 +19,7 @@ The two most normal conventions are:
 
 * Black (or sometimes Blue): This denotes a wire running directly to Ground (GND)
 
-* Red: This is connected to a source of power. Normally running from the 3.3V on your Spark.
+* Red: This is connected to a source of power. Normally running from the 3.3V on your Particle board.
 
 When working with other components, choose a consistent color. For example if working with an RGB led, you might use a Green, Orange (because red is for power) and Blue cable to connect to each of the color terminals on the LED. 
 

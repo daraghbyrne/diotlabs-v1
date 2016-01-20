@@ -10,7 +10,7 @@ This mix of tutorials and guides will introduce you to writing your first sketch
 
 ### Components you will need
 
-* Spark Microcontroller 
+* Particle Microcontroller 
 
 * [Breadboard]({{site.baseurl}}/breadboards)
 

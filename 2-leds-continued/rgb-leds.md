@@ -64,5 +64,5 @@ The example will move through some basic color mixing with each iteration.
 
 * [https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/overview](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/overview)
 
-* [https://community.spark.io/t/wiring-up-the-rgb-led-from-the-maker-kit/4832](https://community.spark.io/t/wiring-up-the-rgb-led-from-the-maker-kit/4832)
+* [https://community.particle.io/t/wiring-up-the-rgb-led-from-the-maker-kit/4832](https://community.particle.io/t/wiring-up-the-rgb-led-from-the-maker-kit/4832)
 

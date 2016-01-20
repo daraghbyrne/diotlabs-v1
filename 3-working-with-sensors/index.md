@@ -11,7 +11,7 @@ In this section, we're going to exlore how to get useful information from the wo
 
 ### Components you will need
 
-* Spark Microcontroller 
+* Particle Microcontroller 
 
 * [Breadboard]({{site.baseurl}}/breadboards)
 

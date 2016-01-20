@@ -14,7 +14,7 @@ https://www.adafruit.com
 https://www.sparkfun.com 
 
 Debugging and Testing
-An online Spark Helper tool - http://jflasher.github.io/spark-helper/ 
+An online Helper tool - http://jflasher.github.io/spark-helper/ 
 
 Tutorials on Programming IOT
 Fritizing Getting started - http://fritzing.org/learning/ 
