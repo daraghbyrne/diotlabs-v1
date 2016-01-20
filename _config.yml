@@ -41,7 +41,7 @@ github:
   user:           daraghbyrne
   repo:           https://github.com/daraghbyrne/diotlabs
   
-  
+github_source_code: https://github.com/daraghbyrne/DesigningIoT
   
 # The left menu bar
 menu:
@@ -78,7 +78,29 @@ menu:
           - text: "Guide: Making Functions available through the Particle Cloud"
             relativeUrl: /1-a-simple-internet-appliance/making-functions-available
           - text: "Tutorial: Connecting your LED to the Internet"
-            relativeUrl: /1-a-simple-internet-appliance/iot-led
+            relativeUrl: /1-a-simple-internet-appliance/iot-led			
+      - text: "2. LEDs Continued"
+        relativeUrl: /2-leds-continued/
+        items:
+          - text: "Guide: Controlling and Fading LEDs: Pulse Width Modulation"
+            relativeUrl: /2-leds-continued/pwm
+          - text: "Guide: analogWrite"
+            relativeUrl: /2-leds-continued/analogWrite
+          - text: "Tutorial: A Connected Dimmer Switch"
+            relativeUrl: /2-leds-continued/dimmer
+          - text: "Guide: RGB LEDs"
+            relativeUrl: /2-leds-continued/rgb-leds
+          - text: "Tutorial: Using an RGB LED"
+            relativeUrl: /2-leds-continued/using-rgb-leds
+          - text: "Guide: Libraries - Adding Functionality"
+            relativeUrl: /2-leds-continued/libraries
+          - text: "Tutorial: Using the in-built RGB LED"
+            relativeUrl: /2-leds-continued/built-in-rgbled
+      - text: "3. Working with Sensors"
+        relativeUrl: /3-working-with-sensors/
+        items:
+          - text: "Guide: What are sensors?"
+            relativeUrl: /2-leds-continued/sensors
 
       - text: "Tips and Troubleshooting"
         relativeUrl: /tips-and-troubleshooting/
