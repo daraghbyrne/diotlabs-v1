@@ -35,9 +35,9 @@ Let's follow these steps for a *hopefully* headache free installation which will
 
 # Step 1. Plug in Your Particle Photon
 
-- Connect your core to your computer using the USB cord.
+- Connect your Particle board to your computer using the USB cord.
 
-- The Core’s light will flash Blue. This means it doesn’t know how to connect to the Wireless network… yet.
+- The devices’s light will flash Blue. This means it doesn’t know how to connect to the Wireless network… yet.
 
 **Hold on it’s not blinking blue...**
 
@@ -98,7 +98,7 @@ To get this information, open the **Serial Monitor** as shown in the image above
 
 * Under "Network", select “Wireless Network” and click continue.
 
-* Choose a host name for your machine’s DNS. Copy that url. for example: DARAGHSSPARKCORE.WV.CC.CMU.EDU
+* Choose a host name for your machine’s DNS. Copy that url. for example: DARAGHSPARTICLEDEVICE.WV.CC.CMU.EDU
 
 * Enter the hardware address you copied earlier in the Hardware Address field and click continue.
 
@@ -192,14 +192,14 @@ Now… Cross your fingers. In a few seconds, your Particle Photon should flash g
 
 {% include note.html type="warning" title="Having Trouble?" text="To set WiFi credientials your Particle device needs to be in listening mode. To check, just make sure the LED on your device is blinking deep blue. <br/><br/> If its not, just hold down the <code>SETUP</code> button for 3-5 seconds and try the steps again." %}
 
-# Step 7: Claiming your core 
+# Step 7: Claiming your device 
 
-Your Particle’s online and we’re ready to claim your core. Essentially we're telling the Particle framework that this device belongs to your account and you're the only person who should be able to access it's data and send code to it. To do this we need:
+Your Particle’s online and we’re ready to claim your device. Essentially we're telling the Particle framework that this device belongs to your account and you're the only person who should be able to access it's data and send code to it. To do this we need:
 
 1. to know what the device is called in computer speak, or its hexadecimal ID (see step 2)
 2. to have the device connected to WiFi (see step 6)
 
-Thankfully you've already got both of these... There's two ways you can 'claim' your core' using the Device ID - through Particle Dev on your desktop, or through the Build tool online. 
+Thankfully you've already got both of these... There's two ways you can 'claim' your device using the Device ID - through Particle Dev on your desktop, or through the Build tool online. 
 
 ### Using Particle Dev.
 
