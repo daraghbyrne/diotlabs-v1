@@ -100,7 +100,27 @@ menu:
         relativeUrl: /3-working-with-sensors/
         items:
           - text: "Guide: What are sensors?"
-            relativeUrl: /2-leds-continued/sensors
+            relativeUrl: /3-working-with-sensors/sensors
+          - text: "Guide: Reading from Sensors: Using analogRead"
+            relativeUrl: /3-working-with-sensors/analogRead			
+          - text: "Guide: Resistive Sensors and Pull Down Resistors"
+            relativeUrl: /3-working-with-sensors/pull-down-resistors	
+          - text: "Guide: Particle Cloud and Variables"
+            relativeUrl: /3-working-with-sensors/cloud-variables
+          - text: "Guide: Working with Sensor Data: map()"
+            relativeUrl: /3-working-with-sensors/map
+          - text: "Tutorial: Using a photoresistor"
+            relativeUrl: /3-working-with-sensors/photoresistors
+          - text: "Tutorial: Using a TMP36 Temperature Sensor"
+            relativeUrl: /3-working-with-sensors/tmp36
+          - text: "Tutorial: Using a FSRs"
+            relativeUrl: /3-working-with-sensors/fsrs
+
+      - text: "4. Basic Skills"
+        relativeUrl: /4-basic-skills/
+        items:
+          - text: "Tutorial: Soldering"
+            relativeUrl: /4-basic-skills/solder-it
 
       - text: "Tips and Troubleshooting"
         relativeUrl: /tips-and-troubleshooting/

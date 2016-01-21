@@ -23,6 +23,10 @@ pre {
     margin: 1px 0 24px 0;
 }
 
+div.small, div.medium, div.right, div.left{
+	xdisplay: inline-block;
+	clear: both;
+}
 
 div.small img{
 		max-width: 200px !important;
@@ -34,6 +38,7 @@ div.medium img{
 div.right{
 	float: right;
 }
+
 
 figure figcaption, figure figcaption p{
 	
