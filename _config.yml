@@ -113,7 +113,7 @@ menu:
             relativeUrl: /3-working-with-sensors/photoresistors
           - text: "Tutorial: Using a TMP36 Temperature Sensor"
             relativeUrl: /3-working-with-sensors/tmp36
-          - text: "Tutorial: Using a FSRs"
+          - text: "Tutorial: Using a FSR"
             relativeUrl: /3-working-with-sensors/fsrs
 
       - text: "4. Basic Skills"
