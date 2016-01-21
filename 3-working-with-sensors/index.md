@@ -19,11 +19,13 @@ In this section, we're going to exlore how to get useful information from the wo
 
 * A 1k[Ω](http://en.wikipedia.org/wiki/Omega) [Resistor]({{site.baseurl}}/1-a-simple-internet-appliance/resistors)
 
-* A Photoresitor
+* A Photoresistor
 
 * A PIR Sensor
 
 * A Temperature Sensor
+
+* Optional: A Force Sensitive Resistor (FSR).
 
 ### Some background
 
