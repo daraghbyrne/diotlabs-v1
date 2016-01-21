@@ -25,7 +25,7 @@ In this mix of tutorials and guides, we'll explore Pulse Width Modulation as a w
 
 1. Guide: [Controlling and Fading LEDs: Pulse Width Modulation]({{site.baseurl}}/2-leds-continued/pwm) 
 
-1. Guide: [analogWrite]({{site.baseurl}}/2-leds-continued/analogWrite)
+1. Guide: [analogWrite]({{site.baseurl}}/2-leds-continued/analogwrite)
 
 1. Tutorial: [A Connected Dimmer Switch]({{site.baseurl}}/2-leds-continued/dimmer) - a more advanced Internet Appliance 
 

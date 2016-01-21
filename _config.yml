@@ -85,7 +85,7 @@ menu:
           - text: "Guide: Controlling and Fading LEDs: Pulse Width Modulation"
             relativeUrl: /2-leds-continued/pwm
           - text: "Guide: analogWrite"
-            relativeUrl: /2-leds-continued/analogWrite
+            relativeUrl: /2-leds-continued/analogwrite
           - text: "Tutorial: A Connected Dimmer Switch"
             relativeUrl: /2-leds-continued/dimmer
           - text: "Guide: RGB LEDs"
