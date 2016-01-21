@@ -30,7 +30,7 @@ In this section, we're going to exlore how to get useful information from the wo
 ### Some background
 
 * Guide: [Understanding Sensors]({{site.baseurl}}/3-working-with-sensors/breadboards)
-* Guide: [Reading from Sensors: Using analogRead]({{site.baseurl}}/3-working-with-sensors/analogRead)
+* Guide: [Reading from Sensors: Using analogRead]({{site.baseurl}}/3-working-with-sensors/analogread)
 * Guide: [Resistive Sensors and Pull Down Resistors]({{site.baseurl}}/3-working-with-sensors/pull-down-resistors)
 * Guide: [Particle Cloud and Variables]({{site.baseurl}}/3-working-with-sensors/cloud-variables)
 * Guide: [Working with Sensor Data: map()]({{site.baseurl}}/3-working-with-sensors/map)

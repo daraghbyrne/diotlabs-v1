@@ -102,7 +102,7 @@ menu:
           - text: "Guide: What are sensors?"
             relativeUrl: /3-working-with-sensors/sensors
           - text: "Guide: Reading from Sensors: Using analogRead"
-            relativeUrl: /3-working-with-sensors/analogRead			
+            relativeUrl: /3-working-with-sensors/analogread			
           - text: "Guide: Resistive Sensors and Pull Down Resistors"
             relativeUrl: /3-working-with-sensors/pull-down-resistors	
           - text: "Guide: Particle Cloud and Variables"
