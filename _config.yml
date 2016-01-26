@@ -115,13 +115,22 @@ menu:
             relativeUrl: /3-working-with-sensors/tmp36
           - text: "Tutorial: Using a FSR"
             relativeUrl: /3-working-with-sensors/fsrs
-
       - text: "4. Basic Skills"
         relativeUrl: /4-basic-skills/
         items:
           - text: "Tutorial: Soldering"
             relativeUrl: /4-basic-skills/solder-it
-
+      - text: "5. Getting Inputs"
+        relativeUrl: /5-getting-input/
+        items:
+          - text: "Guide: Inputs: Making Physical Interfaces"
+            relativeUrl: /5-getting-input/inputs
+          - text: "Tutorial: Using a pushbutton"
+            relativeUrl: /5-getting-input/buttons
+          - text: "Tutorial: Using a switch"
+            relativeUrl: /5-getting-input/switches
+          - text: "Tutorial: Using a potentiometer"
+            relativeUrl: /5-getting-input/rotpots
       - text: "Tips and Troubleshooting"
         relativeUrl: /tips-and-troubleshooting/
       - text: "Resources"
