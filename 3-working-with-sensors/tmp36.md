@@ -110,7 +110,7 @@ void loop()
   // call to read its value, we have the latest one
   int reading = analogRead(tempPin);
 
-  // The returned value from the Core is going to be in the range from 0 to 4095
+  // The returned value from the device is going to be in the range from 0 to 4095
   // Calculate the voltage from the sensor reading
   double voltage = (reading * 3.3) / 4095.0;
 
@@ -139,11 +139,11 @@ We store the celsius range in the variable named <code>temperature</code>, quick
 
 ## Step 5: Compiling and sending to your Particle board.
 
-Make sure the Status Bar has a Core connected and the core’s indicator is breathing blue. If not make sure your Core is connected by USB and is getting a WiFi signal.
+Make sure the Status Bar has a device connected and the device’s indicator is breathing blue. If not make sure your device is connected by USB and is getting a WiFi signal.
 
 Press the Lightning bolt on the top left of the window. 
 
-You’ll see a message ‘Compiling in the Cloud’ and a few sections later your core should start flashing magenta.
+You’ll see a message ‘Compiling in the Cloud’ and a few sections later your device should start flashing magenta.
 
 Wait a few moments, it should return to breathing blue, and the LED should be off.
 
@@ -164,7 +164,7 @@ Click the Watch button to have it refresh every few seconds.
 
 * Open up [http://particle.io/build](http://particle.io/build)
 
-* Select the Target Icon to view your Cores. Select the Core which is currently connected and the device ID information will appear.
+* Select the Target Icon to view your devices. Select the device which is currently connected and the device ID information will appear.
 
 * Copy down the device ID - you’ll need that in a second.
 

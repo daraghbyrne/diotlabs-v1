@@ -42,8 +42,10 @@ Follow these primers for working with different types of sensors:
 #### In your Maker Kit
 
 1. Tutorial: [Using a photoresistor]({{site.baseurl}}/3-working-with-sensors/photoresistors)
-1. Tutorial: [Using a TMP36 Temperature Sensor]({{site.baseurl}}/3-working-with-sensors/tmp36)
+1. Tutorial: [Using a DS18B20 Temperature Sensor]({{site.baseurl}}/3-working-with-sensors/DS18B20)
+
 
 #### In the Lab
 
 1. Tutorial: [Using a FSR]({{site.baseurl}}/3-working-with-sensors/fsrs)
+1. Tutorial: [Using a TMP36 Temperature Sensor]({{site.baseurl}}/3-working-with-sensors/tmp36)

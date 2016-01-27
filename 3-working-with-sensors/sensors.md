@@ -35,10 +35,15 @@ Each sensor is different and converts physical properties of the world into elec
 In your Maker Kit you have a bunch of sensors included. These are:
 
 
-{% include figure.html src="../images/temp.jpg" caption="TMP36" class="small right" %}
+{% include figure.html src="../images/temp.jpg" caption="Temperature Sensor" class="small right" %}
 
 #### Temperature Sensor
-The TMP36 is a low voltage, precision centigrade (C) temperature sensor. It provides a voltage output that is linearly proportional to the Celsius (centigrade) temperature. The TMP36 does not require any external calibration to provide typical accuracies of ±1°C at +25°C and ±2°C over the −40°C to +125°C temperature range.
+
+
+The DS18B20 is an easy to use one wire digital thermometer with up to 12-bit measurement resolution. It works with low voltage from 3.0V to 5.5V DC. It doesn't need any external calibration and can measure a temperature range of -55°C to +125°C with an accuracy of ±0.5°C (from -10°C to +85°C). It uses the OneWire protocol for digital sensing. 
+
+
+[comment]: <> The TMP36 is a low voltage, precision centigrade (C) temperature sensor. It provides a voltage output that is linearly proportional to the Celsius (centigrade) temperature. The TMP36 does not require any external calibration to provide typical accuracies of ±1°C at +25°C and ±2°C over the −40°C to +125°C temperature range.
 
 
 {% include figure.html src="../images/mk-pir.jpg" caption="PIR" class="small right" %}

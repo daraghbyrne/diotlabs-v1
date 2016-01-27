@@ -6,3 +6,5 @@ FYI, in the Lab 2: RGB LEDs there is an error in the schematic/code. The A0 pin 
 
 jon [7:01 PM] 
 hm, I used A0?  but on the new chips, the 3V3* pin doesn’t exist, you have to use the regular 3V3
+
+A write up on libraries and their role 

@@ -111,6 +111,8 @@ menu:
             relativeUrl: /3-working-with-sensors/map
           - text: "Tutorial: Using a photoresistor"
             relativeUrl: /3-working-with-sensors/photoresistors
+          - text: "Tutorial: Using a DS18B20 Temperature Sensor"
+            relativeUrl: /3-working-with-sensors/DS18B20
           - text: "Tutorial: Using a TMP36 Temperature Sensor"
             relativeUrl: /3-working-with-sensors/tmp36
           - text: "Tutorial: Using a FSR"
@@ -131,6 +133,15 @@ menu:
             relativeUrl: /5-getting-input/switches
           - text: "Tutorial: Using a potentiometer"
             relativeUrl: /5-getting-input/rotpots
+      - text: "6. Controlling Outputs"
+        relativeUrl: /6-controlling-outputs
+        items:
+          - text: "Guide: Movement and Motors"
+            relativeUrl: /6-controlling-outputs/motors
+          - text: "Tutorial: Using a Servo"
+            relativeUrl: /6-controlling-outputs/servo
+          - text: "Tutorial: Making sounds with Piezos"
+            relativeUrl: /6-controlling-outputs/piezo
       - text: "Tips and Troubleshooting"
         relativeUrl: /tips-and-troubleshooting/
       - text: "Resources"
@@ -139,4 +150,5 @@ menu:
         relativeUrl: /faq/
       - text: "DIoT 2016"
         absoluteUrl: http://daraghbyrne.github.io/diot2016
+
 
