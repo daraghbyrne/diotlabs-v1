@@ -142,6 +142,17 @@ menu:
             relativeUrl: /6-controlling-outputs/servo
           - text: "Tutorial: Making sounds with Piezos"
             relativeUrl: /6-controlling-outputs/piezo
+      - text: "7. Communicating through Events"
+        relativeUrl: /7-communicating-events
+        items:
+          - text: "Guide: Particle Cloud & Publishing Events"
+            relativeUrl: /7-communicating-events/publishing-events
+          - text: "Tutorial: A PIR and Particle.publish()"
+            relativeUrl: /7-communicating-events/pir
+          - text: "Tutorial: Events between devices - creating a connected doorbell"
+            relativeUrl: /7-communicating-events/doorbell
+      - text: "8. Connecting to Services with IFTTT"
+        relativeUrl: /8-ifttt
       - text: "Tips and Troubleshooting"
         relativeUrl: /tips-and-troubleshooting/
       - text: "Resources"
