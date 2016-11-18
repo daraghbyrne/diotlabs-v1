@@ -18,7 +18,7 @@ title: Introduction
                       {{ item.text }}
                   </a>
 				
-				<ul class="{% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current {% endif %}">
+				<ul class="{% if page.url == item.relativeUrl or ((page.url contains item. item.relativeUrl.size > 1 ) ) %} current {% endif %}">
 	            {% for item in item.items %}
 				
 	                <li class="toctree-l2 {% if page.url contains item.relativeUrl %} current {% endif %}">
@@ -50,5 +50,5 @@ title: Introduction
 
 
   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+relativeUrl) and
 </div>

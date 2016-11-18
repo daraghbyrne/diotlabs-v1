@@ -8,3 +8,16 @@ jon [7:01 PM]
 hm, I used A0?  but on the new chips, the 3V3* pin doesn’t exist, you have to use the regular 3V3
 
 A write up on libraries and their role 
+
+Transistor demo 
+	- using actuators, fans, etc. 
+	- driving LED strips
+	- e.g. a scent dispersal unit
+		( actuator to pop lid or agitate, LED strips to show activity inside, fan to blow, maybe a gas sensor )
+		
+
+
+Tutorial on Wizard of Oz prototyping with Google Forms and Sheets.
+
+
+Add vibration motor exmaple 
