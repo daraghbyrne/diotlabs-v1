@@ -131,11 +131,11 @@ A pin is basically like a faucet. Its connected to power from the USB that we pl
 
 <code>digitalWrite</code> takes two parameters or passed variables which tell it the pin we want to control and what the power should be set to (<code>HIGH</code> or <code>LOW</code>). See: [http://arduino.cc/en/Reference/digitalWrite](http://arduino.cc/en/Reference/digitalWrite)
 
-### Step 4: Making it Blink
+### Step 5: Making it Blink
 
 This is where the good stuff happens. 
 
-We’ve already setup our sketch. Now we need to fill in the <code>loop()</code> function. Loop gets called over and over and over and over. Once <code>setup()</code> finishes the microcontroller next executes everything inside the curly braces of the loop function. When it gets to the end (the closing curly brace), it will pause for a moment (about 5 milliseconds, a very long time for a computer) and then start all over again. 
+We’ve already setup our sketch. Now we need to fill in the <code>loop()</code> function. Loop gets called over and over and over and over. Once <code>setup()</code> finishes the microcontroller next executes everything inside the curly braces of the loop function. When it gets to the end (the closing curly brace), it will pause for a moment (a millisecond or two and that's a very long time for a computer) and then start all over again. 
 
 To make the LED blink we’re going to do the following
 
@@ -182,7 +182,7 @@ Looks like we’re ready to put this program on your microcontroller.
 
 
 
-## Step 5: Compiling and sending to the Particle device
+## Step 6: Compiling and sending to the Particle device
 
 Make sure the Status Bar has a device connected and the photon’s indicator is breathing blue. If not make sure your Photon is connected by USB and is getting a WiFi signal.
 
@@ -194,7 +194,7 @@ You’ll see a message ‘Compiling in the Cloud’ and a few sections later you
 
 Wait a few moments, it should return to breathing blue, and the LED should begin to flash!
 
-## Step 6: Congratulations
+## Step 7: Congratulations
 
 You’ve just build your first circuit and written your first program to make it interactive. Below are some ways you can take it further. 
 

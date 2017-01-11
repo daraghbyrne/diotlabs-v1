@@ -56,7 +56,7 @@ Let’s get the basics of our sketch underway.  We are going to combine all of t
 
 4. fade the LED to correspond to the sensor reading
 
-If you’d like to get the code for this directly, go to [http://github.com/daraghbyrne/DesigningIoT](http://github.com/daraghbyrne/DesigningIoT)
+If you’d like to get the code for this directly, go to [{{site.github_source_code}}]({{site.github_source_code}})
 
 #### Add your variables
 

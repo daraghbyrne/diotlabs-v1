@@ -81,7 +81,7 @@ Let’s get the basics of our sketch underway.  We are going to combine all of t
 
 3. Put the converted sensor readings (temperatures) on the Particle Cloud
 
-If you’d like to get the code for this directly, go to [http://github.com/daraghbyrne/DesigningIoT](http://github.com/daraghbyrne/DesigningIoT)
+If you’d like to get the code for this directly, go to [{{site.github_source_code}}]({{site.github_source_code}})
 
 **Let’s take a look at the code and explain it.**
 

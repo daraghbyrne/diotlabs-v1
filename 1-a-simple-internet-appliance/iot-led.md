@@ -62,9 +62,13 @@ int ledControl(String command)
    int state = LOW;
 
    // find out the state of the led
-   if(command == "HIGH") state = HIGH;
-   else if(command == "LOW") state = LOW;
-   else return -1;
+   if(command == "HIGH"){
+	   state = HIGH;
+   }else if(command == "LOW"){ 
+	   state = LOW;
+   }else{
+	   return -1;
+   }
 
    // write to the appropriate pin
    digitalWrite(ledPin, state);
@@ -80,7 +84,7 @@ While we’re making decisions we need a place to store that decision. That’s 
 
 Now we need to make some decisions. For this we use an <code>if...else if...else</code> statement. This uses ‘conditional logic’ to make a series of logical choices based on the information provided. 
 
-You see that the if part has some information inside the brackets. This is called the condition. This basically checks if the condition comes out to be true or false. If the condition is true, everything inside its curly braces is executed, otherwise it skips to the next point. 
+You see that the if part has some information inside the parentheses i.e. <code>(...)</code>. This is called the condition. This basically checks if the condition comes out to be true or false. If the condition is true, everything inside its curly braces is executed, otherwise it skips to the next point. 
 
 In other words it makes evaluations based on logic. In this case we are testing equality: if the string passed is the same as the string on the other side of the == signs.The  ‘==’ denotes an equality test.
 
@@ -95,6 +99,10 @@ This <code>if...else if...else</code> statement says:
 Finally, if a value of ‘<code>HIGH</code>’ or ‘<code>LOW</code>’ was received we’ll want to act on it. We use the digitalWrite function to turn the pin on or off depending what was received. After that we return an integer value of 1 to indicate everything was successful.
 
 {% include note.html type="hint" title="Conditions" text="There are several different types of condition which can be checked.  We covered equality (==), but there is also inequality (!=) which checks if two item don’t match. For numbers we can also see if there are more (>) or less (<) than another value, as well as more than or equal to (>=) and less than or equal to (<=)<br/><br/>Read more at: [http://arduino.cc/en/Tutorial/IfStatement](http://arduino.cc/en/Tutorial/IfStatement) and [http://arduino.cc/en/Reference/if](http://arduino.cc/en/Reference/if)" %}
+
+
+{% include note.html type="hint" title="Conditions" text="If your conditions only execute one line of code you can simplify your statements and remove the curly brackets surrounding them e.g. <code> if(command == \"HIGH\")    state = HIGH;</code>. But it's generally good practice to include them!" %}
+
 
 
 **Finally, add the cloud function**

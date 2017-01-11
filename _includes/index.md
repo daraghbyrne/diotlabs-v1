@@ -5,7 +5,7 @@
 
 An outline description of tutorials and hands-on self paced guides for this course is described below. 
 
-This guide contains a series of online resources, developed as part of CMU's [Designing for the Internet of Things](http://daraghbyrne.github.io/diot2016//) (24-884). It's designed to offer a series of self-paced guides and tutorials which can be followed during scheduled lab times or at a time of convenience. 
+This guide contains a series of online resources, developed as part of CMU's [Designing for the Internet of Things]({{site.course_site}}) (49-713). It's designed to offer a series of self-paced guides and tutorials which can be followed during scheduled lab times or at a time of convenience. 
 
 #### Equipment
 

@@ -12,7 +12,7 @@ They do what their name suggests: they resist the flow of electricity. Each resi
 
 # Prototyping with Resistors
 
-While in normal circuits, you’ll want to use resistors more precisely when prototyping we really only need two resistors: 1KΩ and a 10KΩ.  The 1KΩ resistor is normally placed before components like LEDs to protect them while the 10KΩ resistor is used to impede the flow of electricity but create a complete when working with switches and other input devices. More on that later…
+While in normal circuits, you’ll want to use resistors more precisely; when prototyping we really only need two resistors: 1KΩ and a 10KΩ.  The 1KΩ resistor is normally placed before components like LEDs to protect them while the 10KΩ resistor is used to impede the flow of electricity but create a complete when working with switches and other input devices. More on that later…
 
 {% include figure.html src="../images/image01.png" caption="Resistors of various resistances - color bands denote how much resistance they give" class="" %}
 

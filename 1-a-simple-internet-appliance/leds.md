@@ -9,9 +9,9 @@ LED’s come in a variety of shapes, sizes and colors, but they all do one thing
 
 When electricity is passed through the component, it releases this energy as light in a process called electroluminescence. 
 
-While LED’s have two leads or wires like a resistor and other components, they do have a distinction: they are directional. Components that work only in 'one direction' are called **Diodes.** 
+While LED’s have two leads or wires like a resistor and other components, they do have a distinction: they are directional. Components that work only in 'one direction' are called **polarized components.** 
 
-You’ll notice that one of the legs is shorter than the other and this is important. The longer leg is called the **anode** (positive). The shorter leg is called the cathode (negative). The anode needs to connect to the power source (positive) while the cathode should be connected to ground (negative). Because of this we need to know which leg is which.
+You’ll notice that one of the legs is shorter than the other and this is important. The longer leg is called the **anode** (positive). The shorter leg is called the **cathode** (negative). The anode needs to connect to the power source (positive) while the cathode should be connected to ground (negative). Because of this we need to know which leg is which.
 
 {% include figure.html src="../images/image00.jpg" caption="Know which end of an LED is which" class="" %}
 

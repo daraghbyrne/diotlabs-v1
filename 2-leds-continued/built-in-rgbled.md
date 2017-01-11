@@ -18,7 +18,7 @@ __Note__, we don’t need to create a circuit for us. It’s already hard wired 
 
 We’re going to quickly modify the RGB example to allow you to control the LED online. 
 
-The full code can be found at: [https://github.com/daraghbyrne/DesigningIoT](https://github.com/daraghbyrne/DesigningIoT)
+The full code can be found at: [{{site.github_source_code}}]({{site.github_source_code}})
 
 ####  Add your variables
 

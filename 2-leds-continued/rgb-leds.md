@@ -3,7 +3,7 @@ layout: page
 title: "RGB LEDs"
 ---
 
-{% include figure.html src="../images/rgbled_0.png" caption="RGB LEDs" class="" %}
+{% include figure.html src="../images/rgbled_0.jpg" caption="RGB LEDs" class="" %}
 
 LED's are cool but RGB LED’s are even cooler. They let us to make rainbows - well just color. 
 

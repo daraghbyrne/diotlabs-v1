@@ -8,46 +8,33 @@ title: Introduction
 
 <div class="home">
 
-  <h4 class="page-heading">Tables of Contents</h1>
+  <h4 class="page-heading">Tables of Contents</h4>
 
-      <ul>
-          {% for item in site.menu.items %}
-              <li class="toctree-l1 {% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current {% endif %}">
-                  <a class="reference internal {% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current{% endif %}"
-                     href="{% if item.relativeUrl == nil %}{{ item.absoluteUrl}}{% else %}{{ item.relativeUrl | prepend: site.baseurl | prepend: site.url  }}{% endif %}">
-                      {{ item.text }}
-                  </a>
-				
-				<ul class="{% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current {% endif %}">
-	            {% for item in item.items %}
-				
-	                <li class="toctree-l2 {% if page.url contains item.relativeUrl %} current {% endif %}">
-	                    <a class="reference internal {% if page.url contains item.relativeUrl %} current{% endif %}"
-	                       href="{% if item.relativeUrl == nil %}{{ item.absoluteUrl}}{% else %}{{ item.relativeUrl | prepend: site.baseurl | prepend: site.url  }}{% endif %}">
-	                        {{ item.text   }}
-	                    </a>
-				
-					</li>
-				
-				{% endfor %}
-				</ul>
-				
-              </li>
+  <ul>
+      {% for item in site.menu.items %}
+          <li class="toctree-l1 {% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current {% endif %}">
+              <a class="reference internal {% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current{% endif %}"
+                 href="{% if item.relativeUrl == nil %}{{ item.absoluteUrl}}{% else %}{{ item.relativeUrl | prepend: site.baseurl | prepend: site.url  }}{% endif %}">
+                  {{ item.text }}
+              </a>
+			
+			<ul class="{% if page.url == item.relativeUrl or ((page.url contains item.relativeUrl) and item.relativeUrl.size > 1 ) ) %} current {% endif %}">
+            {% for item in item.items %}
+			
+                <li class="toctree-l2 {% if page.url contains item.relativeUrl %} current {% endif %}">
+                    <a class="reference internal {% if page.url contains item.relativeUrl %} current{% endif %}"
+                       href="{% if item.relativeUrl == nil %}{{ item.absoluteUrl}}{% else %}{{ item.relativeUrl | prepend: site.baseurl | prepend: site.url  }}{% endif %}">
+                        {{ item.text   }}
+                    </a>
+			
+				</li>
+			
 			{% endfor %}
-		</ul>
-
-
-  <h4 class="page-heading">Notices, Updates and Postings </h4>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-
-
+			</ul>
+			
+          </li>
+		{% endfor %}
+	</ul>
 
   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

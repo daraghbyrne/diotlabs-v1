@@ -99,7 +99,7 @@ Next, we know that our microcontroller can set a brightness from zero to 255, so
 
 Finally, we use the analogWrite function to set the brightness of the LED using pulse width modulation and return an integer with the value of 1 to indicate everything was completed and a new brightness value was set.  
 
-{% include note.html type="tip" title="analogWrite" text="Remember that analogWrite allows us to control the PWM to a specific PIN. It only works on certain pins too. It takes a value from 0-255 (256 increments).<br/><br/>Read more at: [https://docs.particle.io/reference/firmware/photon/#analogwrite-](https://docs.particle.io/reference/firmware/photon/#analogwrite-)" %}
+{% include note.html type="tip" title="analogWrite" text="Remember that analogWrite allows us to control the PWM to a specific PIN. It only works on certain pins too. It takes a value from 0-255 (256 increments).<br/><br/>Read more at: [https://docs.particle.io/reference/firmware/photon/#analogwrite-pwm-](https://docs.particle.io/reference/firmware/photon/#analogwrite-pwm-)" %}
 
 
 ## Step 3: Compiling and sending to your Particle Device
@@ -177,7 +177,7 @@ particle function call 360031000447343232363230 led HIGH
 
 #### 4.4 Using the Provided WebPage
 
-Open up the webpage in the [GitHub code examples repo]({{github_source_code}}) and enter your Device ID and Access Token for Particle cloud. It uses JQuery to make calls directly to the cloud API and make your LED controllable from your browser.
+Open up the webpage in the [GitHub code examples repo]({{site.github_source_code}}) and enter your Device ID and Access Token for Particle cloud. It uses JQuery to make calls directly to the cloud API and make your LED controllable from your browser.
 
 ##### Congratulations! You just put your LED on the internet!
 
