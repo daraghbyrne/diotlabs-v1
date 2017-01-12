@@ -1,8 +1,6 @@
 ADD PIR Example to Sensors
 Add a Wirestripping section to basic skills
 
-FYI, in the Lab 2: RGB LEDs there is an error in the schematic/code. The A0 pin assigned for the Red LED pin is not a PWM pin and will not work for analogWrite(). Use D2 instead and it works fine.
-
 jon [7:01 PM] 
 hm, I used A0?  but on the new chips, the 3V3* pin doesn’t exist, you have to use the regular 3V3
 
@@ -17,3 +15,9 @@ Transistor demo
 Tutorial on Wizard of Oz prototyping with Google Forms and Sheets.
 
 Add vibration motor exmaple 
+
+
+http://diotlabs.daraghbyrne.me/5-getting-input/buttons/ - Wiring to ground box - The link explains pull Up/Down resistors, but it might be good to just mention that internal pull ups are just resistors on the photon (internal pull ups confused me for the longest time when I was learning this stuff in high school because they made me question when I needed an external pull up and when I didn’t). We can also explain the code change that enables the internal pull up as well.
+
+“Step 3: Open Particle Dev” not working box - 
+should we add info about installing dfu-util?
