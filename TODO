@@ -1,7 +1,6 @@
 ADD PIR Example to Sensors
 Add a Wirestripping section to basic skills
 
-
 FYI, in the Lab 2: RGB LEDs there is an error in the schematic/code. The A0 pin assigned for the Red LED pin is not a PWM pin and will not work for analogWrite(). Use D2 instead and it works fine.
 
 jon [7:01 PM] 
@@ -15,9 +14,6 @@ Transistor demo
 	- e.g. a scent dispersal unit
 		( actuator to pop lid or agitate, LED strips to show activity inside, fan to blow, maybe a gas sensor )
 		
-
-
 Tutorial on Wizard of Oz prototyping with Google Forms and Sheets.
-
 
 Add vibration motor exmaple 

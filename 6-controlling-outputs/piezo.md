@@ -27,7 +27,7 @@ You will need
 
 ## Wiring a piezo 
 
-Is super easy. One of the terminals goes to ground and the other goes to a [PWM pin]({{site.baseurl}}/2-leds-continued/pwm), in this case <code>A0</code>
+Is super easy. One of the terminals goes to ground and the other goes to a [PWM pin]({{site.baseurl}}/2-leds-continued/pwm), in this case <code>D0</code>
 
 The circuit, wiring and components should look like this
 
@@ -59,7 +59,7 @@ Now let’s put this into practice with the circuit above…
 Define the variables to use for the servo. Notice that we have created a slightly different kind of varaible. This is an array. It’s kind of like a shelf of variables. You can put a set of connected values into each of the shelfs, referencing them by a number. 
 
 ````
-int speakerPin = A0;
+int speakerPin = D0;
 
 // create an array for the notes in the melody:
 //C4,G3,G3,A3,G3,0,B3,C4
