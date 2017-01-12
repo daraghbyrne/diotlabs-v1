@@ -101,7 +101,7 @@ Accelerometers allow you to sense acceleration in one or more degrees. 3-axis ac
 There's also gyroscopes to detect velocity, rotation and orientation; and magnetometers which are like digital compasses.
 
 
-### Finding more... 
+### Find out more... 
 
 There are many, many, many more sensors available in the lab for your projects and you can always order specific sensors from Adafruit or Sparkfun. The [Sensor Pack 900 from Adafruit](http://www.adafruit.com/products/176) or the [SparkFun Sensor Kit](https://www.sparkfun.com/products/12797) are both good starting points!
 

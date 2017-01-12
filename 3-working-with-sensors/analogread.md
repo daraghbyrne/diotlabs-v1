@@ -34,7 +34,7 @@ void loop()
 }
 ````
 
-If things are really bright, we’d expect the value we get to be really high - near 1023
+If things are really bright, we’d expect the value we get to be really high - nearer 4095
 
 If things are really dim, we’d expect a low value - 100 or less. 
 
@@ -53,6 +53,6 @@ You might have expected to see pinMode called to set the pin to INPUT in the set
 
 ## Find out more
 
-* [https://docs.particle.io/reference/firmware/photon/#analogread-](https://docs.particle.io/reference/firmware/photon/#analogread-)
+* [https://docs.particle.io/reference/firmware/photon/#analogread-adc-](https://docs.particle.io/reference/firmware/photon/#analogread-adc-)
 * [http://arduino.cc/en/Reference/AnalogRead](http://arduino.cc/en/Reference/AnalogRead)
 
