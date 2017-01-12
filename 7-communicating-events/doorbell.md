@@ -15,7 +15,7 @@ You will need
 
 * Particle Microcontroller 
 
-* [Breadboard]({{site.baseurl}}/breadboards)
+* [Breadboard]({{site.baseurl}}/1-a-simple-internet-appliance/breadboards)
 
 * [Jumper Wires]({{site.baseurl}}/1-a-simple-internet-appliance/jumpers)
 

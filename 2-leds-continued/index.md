@@ -12,7 +12,7 @@ In this mix of tutorials and guides, we'll explore Pulse Width Modulation as a w
 
 * Particle Microcontroller 
 
-* [Breadboard]({{site.baseurl}}/breadboards)
+* [Breadboard]({{site.baseurl}}/1-a-simple-internet-appliance/breadboards)
 
 * [Jumper Wires]({{site.baseurl}}/1-a-simple-internet-appliance/jumpers)
 
