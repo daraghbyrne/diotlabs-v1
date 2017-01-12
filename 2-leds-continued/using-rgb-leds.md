@@ -7,7 +7,7 @@ We’re going to make an RGB LED that you can control from a webpage
 
 ## Step 1: Create your Circuit
 
-The circuit, wiring and components look like this. Connect the red terminal to <code>A0</code>, connect the green to <code>D0</code> and the blue to <code>D1</code>. All should be connected to 1KOhm resistor. Finally connect the common anode to the power (3v3). 
+The circuit, wiring and components look like this. Connect the red terminal to <code>A4</code>, connect the green to <code>D0</code> and the blue to <code>D1</code>. All should be connected to 1KOhm resistor. Finally connect the common anode to the power (3v3). 
 
 {% include figure.html src="../images/using_rgbs_0.png" caption="RGB LED Circuit Diagram" class="" %}
 
@@ -17,12 +17,12 @@ Let’s get the basics of our sketch underway.
 
 #### Add your variables
 
-Map your red pin to <code>A0</code>, your green pin to <code>D0</code> and your blue pin to <code>D1</code>. All of these pins have PWM control.
+Map your red pin to <code>A4</code>, your green pin to <code>D0</code> and your blue pin to <code>D1</code>. All of these pins have PWM control.
 
 Then create variables to store your red green and blue components. We’ll use this later.
 
 ````
-int redPin = A0;    // RED pin of the LED to PWM pin **A0**
+int redPin = A4;    // RED pin of the LED to PWM pin **A4**
 int greenPin = D0;  // GREEN pin of the LED to PWM pin **D0**
 int bluePin = D1;   // BLUE pin of the LED to PWM pin **D1**
 int redValue = 255; // Full brightness for an Cathode RGB LED is 0, and off 255
