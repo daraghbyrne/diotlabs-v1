@@ -152,7 +152,7 @@ menu:
         relativeUrl: /7-communicating-events
         items:
           - text: "Guide: Particle Cloud & Publishing Events"
-            relativeUrl: /7-communicating-events/publishing-events
+            relativeUrl: /7-communicating-events/events
           - text: "Tutorial: A PIR and Particle.publish()"
             relativeUrl: /7-communicating-events/pir
           - text: "Tutorial: Events between devices - creating a connected doorbell"

@@ -19,7 +19,7 @@ You will need
 
 * [Jumper Wires]({{site.baseurl}}/1-a-simple-internet-appliance/jumpers)
 
-* [Piezo]({{site.baseurl}}/5-getting-input/piezo)
+* [Piezo]({{site.baseurl}}/6-controlling-outputs/piezo)
 
 * A [push button]({{site.baseurl}}/5-getting-input/buttons)
 
@@ -38,12 +38,10 @@ We set up the basics. The pin the speaker and the buttons are on and create a va
 We also need to create a set of variables to hold the melody when we go to play it back.
 
 ````
-int speakerPin = A0;
+int speakerPin = D1;
 
 int buttonPin = D0;
 int val;
-
-int noteDurations[] = {4,8,8,4,4,4,4,4 };
 
 int melody[] = { 440, 494, 131 };
 
@@ -96,7 +94,7 @@ void announceDoorbell()
 }
 ````
 
-We use <code>Particle.publish</code> to announce a new event called ‘<code>db2015/doorbell-pushed</code>’. This has a relatively unique name so that it is unlikely other devices will use it. 
+We use <code>Particle.publish</code> to announce a new event called ‘<code>db2017/doorbell-pushed</code>’. This has a relatively unique name so that it is unlikely other devices will use it. 
 
 ##Receiving an event 
 
@@ -111,7 +109,7 @@ void setup() {
   pinMode( buttonPin , INPUT_PULLUP); // sets pin as input
 
   // Subscribe to the doorbell event
-  Particle.subscribe(  "db2015/doorbell-pushed" , handleDoorbellPush );  
+  Particle.subscribe(  "db2017/doorbell-pushed" , handleDoorbellPush );  
 }
 ````
 
@@ -130,7 +128,7 @@ void handleDoorbellPush(const char *event, const char *data)
 void doDingDong()
 {
   // iterate over the notes of the melody:
-  for (int thisNote = 0; thisNote < 8; thisNote++) {
+  for (int thisNote = 0; thisNote < 3; thisNote++) {
 
     // to calculate the note duration, take one second
     // divided by the note type.
@@ -207,7 +205,7 @@ Now the event handler checks to see if we are playing. If the piezo is already i
 
 Ding dong. Compile and try it out! 
 
-{% include note.html type="tip" title="There’s lots of uses for a Piezo" text="An array is a collection of variables that are accessed with an index number.  Read more at: You can use a piezo as a sensor to detect knocks. Read more: [http://www.arduino.cc/en/Tutorial/KnockSensor](http://www.arduino.cc/en/Tutorial/KnockSensor)" %}
+{% include note.html type="tip" title="There’s lots of uses for a Piezo" text=" Piezos can be used for more than just making noise and creating melodies. It can be used to detect some inputs too. Read more at: You can use a piezo as a sensor to detect knocks. Read more: [http://www.arduino.cc/en/Tutorial/KnockSensor](http://www.arduino.cc/en/Tutorial/KnockSensor)" %}
 
 
 
