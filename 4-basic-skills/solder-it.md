@@ -120,3 +120,8 @@ When soldering components, you should always try to use a heat sink. It protects
 
 {% include figure.html src="../images/heatsink.jpg" caption="Using Heat Sinks" class="" %}
 
+{% include note.html type="hint" title="More and desoldering" text="In this guide we've covered the basics of soldering, but you can also desolder (or remove solder) from your components too. [This guide](https://www.hackster.io/glowascii/intro-to-soldering-desoldering-397313) developed by Alex Glow at Adafruit provides some tips on this." %}
+
+
+
+
