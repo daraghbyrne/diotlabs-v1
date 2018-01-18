@@ -20,15 +20,17 @@ Let’s get the basics of our sketch underway.  We’re going to have an LED con
 
 We’re going to use D0 again, so set up a variable that maps to that pin at the top of your sketch.
 
-Also add a variable that we’ll use to track the brightness of the LED called ledValue;
+Also add a variable that we’ll use to track the brightness of the LED called ledValue:
 
 ````
+
 // name the pins
 int ledPin = D0;
 
 // create a variable to store the
 // current brightness of the LED
 int ledValue = 0;
+
 ````
 
 #### Setup <code>setup()</code>

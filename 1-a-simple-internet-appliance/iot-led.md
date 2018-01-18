@@ -20,7 +20,8 @@ Let’s get the basics of our sketch underway.
 We’re going to use D0 again, so set up a variable that maps to that pin at the top of your sketch
 
 
-````// name the pins
+````
+// name the pins
 int ledPin = D0;
 ````
 
