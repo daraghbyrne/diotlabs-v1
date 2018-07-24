@@ -38,7 +38,7 @@ A buttload of links, guides, tutorials and other online good stuff for working w
 - All about Batteries - https://learn.adafruit.com/all-about-batteries
 - Motor Selection Guide - https://learn.adafruit.com/adafruit-motor-selection-guide/types-of-motors
 
-###Code Examples 
+### Code Examples 
 
 - Example Arduino Patches - Examples - http://arduino.cc/en/Tutorial/HomePage 
  
